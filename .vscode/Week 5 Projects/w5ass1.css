@@ -1,0 +1,43 @@
+html{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(bg-desktop.svg);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+#s2{
+    color: white;
+    float: right;
+    padding-left: 100px;
+}
+button{
+    border-radius: 16px;
+    color: purple;
+    height: 40px;
+    width: 150px;
+}
+#logo{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins.zip);
+}
+@font-face {
+    font-family: Open_Sans;
+    src: url(Open_Sans.zip);
+}
+h1{
+    font-family:Poppins
+}
+p{
+    font-family: Open_Sans;
+}

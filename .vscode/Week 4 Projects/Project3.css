@@ -1,0 +1,56 @@
+html{
+    background-color: hsl(210, 46%, 95%);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    border-style: none;
+    border-radius: 10px;
+    width: 100vh;
+    height: 50vh;
+    margin: auto;
+    margin-top: 90px;
+    justify-content: center;
+}
+#s1{
+    background-image: url(drawers.jpg);
+    border-radius: 4px; 
+    width: 500px;
+    height: 500px;
+}
+#s2{
+    background-color: white;
+    border-radius: 4px;
+    width: 700px;
+    height: 500px;
+}
+#paragraph{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 50px;
+}
+#paragraphtwo{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 50px;
+    color: hsl(217, 19%, 35%);
+}
+.ss{
+    display: flex;
+    flex-direction: row;
+}
+#ss1{
+    padding: 0 40px;
+}
+#ss2{
+    padding: 0 70px;
+}
+#ss3{
+    padding: 0 100px;
+}
+img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
