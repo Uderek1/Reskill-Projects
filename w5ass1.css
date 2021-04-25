@@ -41,3 +41,23 @@ h1{
 p{
     font-family: Open_Sans;
 }
+.c2{
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+    align-items: right;
+    justify-content: right;
+    padding-left: 1300px;
+}
+#facebook{
+    height: 50px;
+    width: 50px;
+}
+#twitter{
+    height: 50px;
+    width: 50px;
+}
+#instagram{
+    height: 50px;
+    width: 50px;
+}
