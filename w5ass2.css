@@ -89,3 +89,14 @@ input{
       font-size: 10px;
       padding-left: 50px;
   }
+  @media screen and (max-width: 600px) {
+      .container{
+          display: flex;
+          flex-direction: column;
+          padding-left: 100px;
+      }
+      h1{
+          font-size: 30px;
+          text-align: center;
+      }
+  }
